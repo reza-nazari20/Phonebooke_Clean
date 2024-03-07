@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfrastructurePhonebook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34565a8392084c20b0a7e06fc7d804fdbe72640b")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfrastructurePhonebook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfrastructurePhonebook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
