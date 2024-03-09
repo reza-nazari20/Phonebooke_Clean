@@ -1,0 +1,12 @@
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\bin\Debug\net8.0\InfrastructurePhonebook.deps.json
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\bin\Debug\net8.0\InfrastructurePhonebook.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\bin\Debug\net8.0\InfrastructurePhonebook.pdb
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\InfrastructurePhonebook.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\InfrastructurePhonebook.AssemblyInfoInputs.cache
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\InfrastructurePhonebook.AssemblyInfo.cs
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\InfrastructurePhonebook.csproj.CoreCompileInputs.cache
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\InfrastructurePhonebook.sourcelink.json
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\InfrastructurePhonebook.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\refint\InfrastructurePhonebook.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\InfrastructurePhonebook.pdb
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\InfrastructurePhonebook\obj\Debug\net8.0\ref\InfrastructurePhonebook.dll

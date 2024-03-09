@@ -1,0 +1,16 @@
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\bin\Debug\net8.0\ApplicationPhonebook.deps.json
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\bin\Debug\net8.0\ApplicationPhonebook.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\bin\Debug\net8.0\ApplicationPhonebook.pdb
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\bin\Debug\net8.0\DomainPhonebook.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\bin\Debug\net8.0\DomainPhonebook.pdb
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.csproj.AssemblyReference.cache
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.AssemblyInfoInputs.cache
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.AssemblyInfo.cs
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.csproj.CoreCompileInputs.cache
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.sourcelink.json
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\Applicat.290BCD38.Up2Date
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\refint\ApplicationPhonebook.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ApplicationPhonebook.pdb
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\ApplicationPhonebook\obj\Debug\net8.0\ref\ApplicationPhonebook.dll

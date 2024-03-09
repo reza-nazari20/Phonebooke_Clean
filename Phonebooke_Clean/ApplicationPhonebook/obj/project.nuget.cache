@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ABWa6JDPX4nIFvKR82f89GueFE2+bSAGUwIYYwXnnQqxx9iMjjJooUrmU4irrWQ6W8mJxc19+P4LhHK8OybEeA==",
+  "dgSpecHash": "9RmNctm+VqgvLhd0g9mG0rq/LJNzVtAZteUcCxQu6XCIIpDFz0e+hmYcn/nex63ml/EQpHWG4W/C2D8Vz4/K+Q==",
   "success": true,
   "projectFilePath": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\ApplicationPhonebook.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
-    "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
+    "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.2\\microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",
     "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\Notebook\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
