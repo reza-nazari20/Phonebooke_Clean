@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\PersistencePhonebook\\Migrations\\20240309091242_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PersistencePhonebook\\Migrations\\20240309091242_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\phonebook.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|solutionrelative:phonebook.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\phonebook.endpoint\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|solutionrelative:phonebook.endpoint\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90AA2AB0-C0CD-4490-BAE1-605428C6093C}|PersistencePhonebook\\PersistencePhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\persistencephonebook\\context\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90AA2AB0-C0CD-4490-BAE1-605428C6093C}|PersistencePhonebook\\PersistencePhonebook.csproj|solutionrelative:persistencephonebook\\context\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\applicationphonebook\\dto\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|solutionrelative:applicationphonebook\\dto\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240309091242_Init.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\PersistencePhonebook\\Migrations\\20240309091242_Init.cs",
-              "RelativeDocumentMoniker": "PersistencePhonebook\\Migrations\\20240309091242_Init.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\PersistencePhonebook\\Migrations\\20240309091242_Init.cs",
-              "RelativeToolTip": "PersistencePhonebook\\Migrations\\20240309091242_Init.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Program.cs",
+              "RelativeDocumentMoniker": "Phonebook.Endpoint\\Program.cs",
+              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Program.cs",
+              "RelativeToolTip": "Phonebook.Endpoint\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:12:42.309Z",
+              "WhenOpened": "2024-03-10T06:58:40.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Forms\\frmMain.cs",
-              "RelativeDocumentMoniker": "Phonebook.Endpoint\\Forms\\frmMain.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Forms\\frmMain.cs",
-              "RelativeToolTip": "Phonebook.Endpoint\\Forms\\frmMain.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAEwE0AAAAmAAAA",
+              "Title": "ResultDto.cs",
+              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Dto\\ResultDto.cs",
+              "RelativeDocumentMoniker": "ApplicationPhonebook\\Dto\\ResultDto.cs",
+              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Dto\\ResultDto.cs",
+              "RelativeToolTip": "ApplicationPhonebook\\Dto\\ResultDto.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:11:32.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "RelativeDocumentMoniker": "PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "RelativeToolTip": "PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T07:13:06.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-09T09:22:53.105Z"
             }
           ]
         }

@@ -18,3 +18,4 @@ E:\Practice\Phonebooke_Clean\Phonebooke_Clean\Phonebook.Endpoint\obj\Debug\net8.
 E:\Practice\Phonebooke_Clean\Phonebooke_Clean\Phonebook.Endpoint\obj\Debug\net8.0-windows\Phonebook.Endpoint.pdb
 E:\Practice\Phonebooke_Clean\Phonebooke_Clean\Phonebook.Endpoint\obj\Debug\net8.0-windows\Phonebook.Endpoint.genruntimeconfig.cache
 E:\Practice\Phonebooke_Clean\Phonebooke_Clean\Phonebook.Endpoint\obj\Debug\net8.0-windows\ref\Phonebook.Endpoint.dll
+E:\Practice\Phonebooke_Clean\Phonebooke_Clean\Phonebook.Endpoint\obj\Debug\net8.0-windows\Phonebook.Endpoint.csproj.AssemblyReference.cache
