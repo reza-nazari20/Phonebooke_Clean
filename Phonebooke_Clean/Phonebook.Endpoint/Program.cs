@@ -1,4 +1,4 @@
-using ApplicationPhonebook.DataBase;
+﻿using ApplicationPhonebook.DataBase;
 using ApplicationPhonebook.Services.AddNewContact;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,6 +10,7 @@ namespace Phonebook.Endpoint
 {
     static class Program
     {
+        //تزریق وابستگی از اینترفیس به کلاس
         public static IServiceProvider ServiceProvider { get; set; }
 
         static void ConfigureServices()

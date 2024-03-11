@@ -1,4 +1,5 @@
-﻿namespace UI_winform.Forms
+﻿
+namespace UI_winform.Forms
 {
     partial class frmAddContact
     {
@@ -39,7 +40,7 @@
             txtPhonenumber = new TextBox();
             txtDescription = new TextBox();
             btnAdd = new Button();
-            btnBack = new Button();
+            btnCancel = new Button();
             SuspendLayout();
             // 
             // label1
@@ -135,24 +136,24 @@
             btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
             // 
-            // btnBack
+            // btnCancel
             // 
-            btnBack.BackColor = Color.LightCoral;
-            btnBack.Font = new Font("B Zar", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 178);
-            btnBack.Location = new Point(57, 512);
-            btnBack.Name = "btnBack";
-            btnBack.Size = new Size(149, 54);
-            btnBack.TabIndex = 11;
-            btnBack.Text = "بازگشت";
-            btnBack.UseVisualStyleBackColor = false;
-            btnBack.Click += btnBack_Click;
+            btnCancel.BackColor = Color.LightCoral;
+            btnCancel.Font = new Font("B Zar", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 178);
+            btnCancel.Location = new Point(57, 512);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(149, 54);
+            btnCancel.TabIndex = 11;
+            btnCancel.Text = "بازگشت";
+            btnCancel.UseVisualStyleBackColor = false;
+            btnCancel.Click += btnBack_Click;
             // 
             // frmAddContact
             // 
             AutoScaleDimensions = new SizeF(12F, 34F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(780, 588);
-            Controls.Add(btnBack);
+            Controls.Add(btnCancel);
             Controls.Add(btnAdd);
             Controls.Add(txtDescription);
             Controls.Add(txtPhonenumber);
@@ -174,6 +175,11 @@
             PerformLayout();
         }
 
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
         private Label label1;
@@ -187,6 +193,6 @@
         private TextBox txtPhonenumber;
         private TextBox txtDescription;
         private Button btnAdd;
-        private Button btnBack;
+        private Button btnCancel;
     }
 }

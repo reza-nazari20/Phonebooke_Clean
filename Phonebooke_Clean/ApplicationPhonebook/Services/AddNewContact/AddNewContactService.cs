@@ -7,31 +7,34 @@ namespace ApplicationPhonebook.Services.AddNewContact
     public class AddNewContactService : IAddNewContactService
     {
         private readonly IDataBaseContext dataBaseContext;
+
         public AddNewContactService(IDataBaseContext dataBaseContext)
         {
             this.dataBaseContext = dataBaseContext;
         }
 
-        public ResultDto Execute(AddNewContactDto newcontact)
+        public ResultDto Execute(AddNewContactDto newContact)
         {
-            if (string.IsNullOrEmpty(newcontact.Phonenumber))
+
+            if (string.IsNullOrEmpty(newContact.PhoneNumber))
             {
-                return new ResultDto()
+                return new ResultDto
                 {
-                    IsSuccess=false,
-                    Message="هشدار",
+                    IsSuccess = false,
+                    Message = "شماره موبایل اجباری می باشد. لطفا شماره موبایل هم وارد کنید"
                 };
             }
 
-            Contact contact = new Contact(newcontact.Name,newcontact.Lastname,newcontact.Phonenumber,newcontact.Company);
+            Contact contact = new Contact(newContact.Name, newContact.LastName, newContact.PhoneNumber, newContact.Company, newContact.Description);
+
 
             dataBaseContext.Contacts.Add(contact);
             dataBaseContext.SaveChanges();
 
-            return new ResultDto()
+            return new ResultDto
             {
-                IsSuccess=true,
-                Message="مخطب ذخیره شد"
+                IsSuccess = true,
+                Message = $" مخاطب {contact.Name} {contact.LastName} با موفقیت در دیتابیس ذخیره شد",
             };
         }
     }

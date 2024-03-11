@@ -1,5 +1,8 @@
 ﻿
 
+using ApplicationPhonebook.Services.AddNewContact;
+using Phonebook.Endpoint;
+
 namespace UI_winform.Forms
 {
     public partial class frmMain : Form
@@ -65,7 +68,11 @@ namespace UI_winform.Forms
 
         private void btnAddnewContact_Click(object sender, EventArgs e)
         {
-            frmAddContact frmAddContact = new frmAddContact();
+            //باز کردن صفحه با استفاده از اینترفیسی که تزرق وابستگی شده
+
+            var serviceAdd = (IAddNewContactService)Program.ServiceProvider.GetService(typeof(IAddNewContactService));
+
+            frmAddContact frmAddContact = new frmAddContact(serviceAdd);
             frmAddContact.ShowDialog();
             frmMain_Load(null, null);
         }

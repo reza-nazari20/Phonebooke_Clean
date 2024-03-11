@@ -8,14 +8,10 @@ namespace ApplicationPhonebook.Services.AddNewContact
 {
     public class AddNewContactDto
     {
-        public string Name { get; set; }
-
-        public string Lastname { get; set; }
-
-        public string Phonenumber { get; set; }
-
-        public string Description { get; set; }
-
-        public string Company { get; set; }
+        public required string Name { get; set; }
+        public required string LastName { get; set; }
+        public required string Company { get; set; }
+        public required string Description { get; set; }
+        public required string PhoneNumber { get; set; }
     }
 }
