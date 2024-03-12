@@ -1,6 +1,7 @@
 ﻿
 
 using ApplicationPhonebook.Services.AddNewContact;
+using ApplicationPhonebook.Services.DeleteContact;
 using ApplicationPhonebook.Services.GetListContact;
 using Phonebook.Endpoint;
 
@@ -9,11 +10,13 @@ namespace UI_winform.Forms
     public partial class frmMain : Form
     {
         private readonly IGetListContactService getListContactService;
+        private readonly IDeleteContactService deleteContactService;
 
-        public frmMain(IGetListContactService getListContactService)
+        public frmMain(IGetListContactService getListContactService, IDeleteContactService deleteContactService)
         {
             InitializeComponent();
             this.getListContactService = getListContactService;
+            this.deleteContactService = deleteContactService;
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -52,7 +55,18 @@ namespace UI_winform.Forms
 
         private void btndelete_Click(object sender, EventArgs e)
         {
+            var Id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            var result = deleteContactService.Execute(Id);
 
+            if (result.IsSuccess == true)
+            {
+                MessageBox.Show(result.Message, "هشدار", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                frmMain_Load(null,null);
+            }
+            else
+            {
+                MessageBox.Show(result.Message,"هشدار",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            }
         }
 
         private void btnDetail_Click(object sender, EventArgs e)

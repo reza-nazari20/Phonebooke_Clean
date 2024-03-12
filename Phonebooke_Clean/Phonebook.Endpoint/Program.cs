@@ -1,5 +1,6 @@
 ﻿using ApplicationPhonebook.DataBase;
 using ApplicationPhonebook.Services.AddNewContact;
+using ApplicationPhonebook.Services.DeleteContact;
 using ApplicationPhonebook.Services.GetListContact;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +22,7 @@ namespace Phonebook.Endpoint
             Services.AddScoped<IDataBaseContext, DatabaseContext>();
             Services.AddScoped<IAddNewContactService, AddNewContactService>();
             Services.AddScoped<IGetListContactService, GetListContactService>();
+            Services.AddTransient<IDeleteContactService, DeleteContactService>();
 
             Services.AddDbContext<DbContext>();
 
@@ -39,8 +41,10 @@ namespace Phonebook.Endpoint
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            var ServiceGetList =(IGetListContactService) ServiceProvider.GetService(typeof(IGetListContactService));
-            Application.Run(new frmMain(ServiceGetList));
+            var ServiceGetList = (IGetListContactService)ServiceProvider.GetService(typeof(IGetListContactService));
+            var ServiceDelete =(IDeleteContactService) ServiceProvider.GetService(typeof(IDeleteContactService));
+
+            Application.Run(new frmMain(ServiceGetList,ServiceDelete));
         }
     }
 }

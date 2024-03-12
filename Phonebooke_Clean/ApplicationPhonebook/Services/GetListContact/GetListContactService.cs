@@ -28,7 +28,7 @@ namespace ApplicationPhonebook.Services.GetListContact
                     );
             }
 
-            var Contact = dataBaseContext.Contacts.Select(p => new ContactListDto()
+            var Contact = ContactQuery.Select(p => new ContactListDto()
             {
                 FullName = $"{p.Name} {p.LastName}",
                 PhoneNumber = p.PhoneNumber,
