@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A4A45A7-C529-413B-A356-E01BFC138E68}|DomainPhonebook\\DomainPhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\domainphonebook\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A4A45A7-C529-413B-A356-E01BFC138E68}|DomainPhonebook\\DomainPhonebook.csproj|solutionrelative:domainphonebook\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\phonebook.endpoint\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|solutionrelative:phonebook.endpoint\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\applicationphonebook\\services\\addnewcontact\\iaddnewcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|solutionrelative:applicationphonebook\\services\\addnewcontact\\iaddnewcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\phonebook.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F1834A-5A17-4D9C-9E0C-0747137DE0BD}|Phonebook.Endpoint\\Phonebook.Endpoint.csproj|solutionrelative:phonebook.endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\applicationphonebook\\services\\addnewcontact\\addnewcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|solutionrelative:applicationphonebook\\services\\addnewcontact\\addnewcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\applicationphonebook\\services\\addnewcontact\\addnewcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|solutionrelative:applicationphonebook\\services\\addnewcontact\\addnewcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90AA2AB0-C0CD-4490-BAE1-605428C6093C}|PersistencePhonebook\\PersistencePhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\persistencephonebook\\context\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90AA2AB0-C0CD-4490-BAE1-605428C6093C}|PersistencePhonebook\\PersistencePhonebook.csproj|solutionrelative:persistencephonebook\\context\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\applicationphonebook\\database\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|solutionrelative:applicationphonebook\\database\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|e:\\practice\\phonebooke_clean\\phonebooke_clean\\applicationphonebook\\services\\getlistcontact\\igetlistcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6F198FD-CAD6-46AB-A98F-6B8F98862552}|ApplicationPhonebook\\ApplicationPhonebook.csproj|solutionrelative:applicationphonebook\\services\\getlistcontact\\igetlistcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\DomainPhonebook\\Entities\\Contact.cs",
-              "RelativeDocumentMoniker": "DomainPhonebook\\Entities\\Contact.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\DomainPhonebook\\Entities\\Contact.cs",
-              "RelativeToolTip": "DomainPhonebook\\Entities\\Contact.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAkwCEAAAAqAAAA",
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Forms\\frmMain.cs",
+              "RelativeDocumentMoniker": "Phonebook.Endpoint\\Forms\\frmMain.cs",
+              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Forms\\frmMain.cs",
+              "RelativeToolTip": "Phonebook.Endpoint\\Forms\\frmMain.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T08:23:58.964Z",
+              "WhenOpened": "2024-03-12T06:38:09.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IAddNewContactService.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\AddNewContact\\IAddNewContactService.cs",
-              "RelativeDocumentMoniker": "ApplicationPhonebook\\Services\\AddNewContact\\IAddNewContactService.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\AddNewContact\\IAddNewContactService.cs",
-              "RelativeToolTip": "ApplicationPhonebook\\Services\\AddNewContact\\IAddNewContactService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Program.cs",
+              "RelativeDocumentMoniker": "Phonebook.Endpoint\\Program.cs",
+              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\Phonebook.Endpoint\\Program.cs",
+              "RelativeToolTip": "Phonebook.Endpoint\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T08:23:51.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddNewContactDto.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactDto.cs",
-              "RelativeDocumentMoniker": "ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactDto.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactDto.cs",
-              "RelativeToolTip": "ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T08:23:35.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "RelativeDocumentMoniker": "PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "RelativeToolTip": "PersistencePhonebook\\Context\\DataBaseContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T07:45:27.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDataBaseContext.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\DataBase\\IDataBaseContext.cs",
-              "RelativeDocumentMoniker": "ApplicationPhonebook\\DataBase\\IDataBaseContext.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\DataBase\\IDataBaseContext.cs",
-              "RelativeToolTip": "ApplicationPhonebook\\DataBase\\IDataBaseContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T07:44:22.022Z",
+              "WhenOpened": "2024-03-12T06:36:23.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddNewContactService.cs",
-              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactService.cs",
-              "RelativeDocumentMoniker": "ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactService.cs",
-              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactService.cs",
-              "RelativeToolTip": "ApplicationPhonebook\\Services\\AddNewContact\\AddNewContactService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwB8AAAAqAAAA",
+              "Title": "IGetListContactService.cs",
+              "DocumentMoniker": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\GetListContact\\IGetListContactService.cs",
+              "RelativeDocumentMoniker": "ApplicationPhonebook\\Services\\GetListContact\\IGetListContactService.cs",
+              "ToolTip": "E:\\Practice\\Phonebooke_Clean\\Phonebooke_Clean\\ApplicationPhonebook\\Services\\GetListContact\\IGetListContactService.cs",
+              "RelativeToolTip": "ApplicationPhonebook\\Services\\GetListContact\\IGetListContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T07:37:51.168Z",
+              "WhenOpened": "2024-03-12T06:09:09.314Z",
               "EditorCaption": ""
             }
           ]

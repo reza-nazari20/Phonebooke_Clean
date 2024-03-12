@@ -1,5 +1,6 @@
 ﻿using ApplicationPhonebook.DataBase;
 using ApplicationPhonebook.Services.AddNewContact;
+using ApplicationPhonebook.Services.GetListContact;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using PersistencePhonebook.Context;
@@ -19,6 +20,7 @@ namespace Phonebook.Endpoint
 
             Services.AddScoped<IDataBaseContext, DatabaseContext>();
             Services.AddScoped<IAddNewContactService, AddNewContactService>();
+            Services.AddScoped<IGetListContactService, GetListContactService>();
 
             Services.AddDbContext<DbContext>();
 
@@ -36,7 +38,9 @@ namespace Phonebook.Endpoint
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmMain());
+
+            var ServiceGetList =(IGetListContactService) ServiceProvider.GetService(typeof(IGetListContactService));
+            Application.Run(new frmMain(ServiceGetList));
         }
     }
 }

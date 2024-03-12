@@ -1,37 +1,43 @@
 ﻿
 
 using ApplicationPhonebook.Services.AddNewContact;
+using ApplicationPhonebook.Services.GetListContact;
 using Phonebook.Endpoint;
 
 namespace UI_winform.Forms
 {
     public partial class frmMain : Form
     {
-        public frmMain()
+        private readonly IGetListContactService getListContactService;
+
+        public frmMain(IGetListContactService getListContactService)
         {
             InitializeComponent();
+            this.getListContactService = getListContactService;
         }
 
         private void frmMain_Load(object sender, EventArgs e)
         {
             this.Cursor = Cursors.WaitCursor;
 
-            //SettingGridveiw(Listcontact);
+            var Listcontact = getListContactService.Execute();
+
+            SettingGridveiw(Listcontact);
 
             this.Cursor = Cursors.Default;
         }
 
-        //private void SettingGridveiw(List<ContactListDto> Listcontact)
-        //{
-        //    //dataGridView1.DataSource = Listcontact;
+        private void SettingGridveiw(List<ContactListDto> Listcontact)
+        {
+            dataGridView1.DataSource = Listcontact;
 
-        //    //dataGridView1.Columns[0].HeaderText = "شناسه";
-        //    //dataGridView1.Columns[1].HeaderText = "نام مخاطب";
-        //    //dataGridView1.Columns[2].HeaderText = "شماره تلفن";
+            dataGridView1.Columns[0].HeaderText = "شناسه";
+            dataGridView1.Columns[1].HeaderText = "نام مخاطب";
+            dataGridView1.Columns[2].HeaderText = "شماره تلفن";
 
-        //    //dataGridView1.Columns[1].Width = 183;
-        //    //dataGridView1.Columns[2].Width = 183;
-        //}
+            dataGridView1.Columns[1].Width = 183;
+            dataGridView1.Columns[2].Width = 183;
+        }
 
         private void btnsearch_Click(object sender, EventArgs e)
         {
