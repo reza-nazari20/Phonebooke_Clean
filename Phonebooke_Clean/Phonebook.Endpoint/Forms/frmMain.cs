@@ -34,7 +34,7 @@ namespace UI_winform.Forms
             dataGridView1.Columns[0].HeaderText = "شناسه";
             dataGridView1.Columns[1].HeaderText = "نام مخاطب";
             dataGridView1.Columns[2].HeaderText = "شماره تلفن";
-
+                 
             dataGridView1.Columns[1].Width = 183;
             dataGridView1.Columns[2].Width = 183;
         }
@@ -43,9 +43,9 @@ namespace UI_winform.Forms
         {
             this.Cursor = Cursors.WaitCursor;
 
-            //var listContact = contactService.SearchContact(txtsearchkey.Text);
+            var listContact = getListContactService.Execute(txtsearchkey.Text);
 
-            //SettingGridveiw(listContact);
+            SettingGridveiw(listContact);
 
             this.Cursor = Cursors.Default;
         }
